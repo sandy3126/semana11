@@ -1,0 +1,62 @@
+.apartado1{
+    border: 3px solid brown;
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 22px;
+    /1:sombra derecha / 2:sombra abajo / 3:color/
+    box-shadow: 6px 10px brown;
+}
+.apartado2{
+    border: 3px solid violet;
+    width: 400px;
+    height: 200px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 22px;
+    /**box-shadow: 6px 10px 7px blueviolet; */
+    /OPACIDAD DE COLOR/
+    box-shadow: 6px 10px rgba(255,0,255,0.2);
+}
+.apartado3{
+    border: 3px solid yellowgreen;
+    width: 400px;
+    height: 200px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 22px;
+    box-shadow: -6px -10px 20px yellowgreen inset;
+}
+.apartado4{
+    border: 3px solid gold;
+    width: 400px;
+    height: 200px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 22px;
+    box-shadow: -6px -10px 20px gold;
+}
+.apartado5{
+    border: 3px solid gold;
+    width: 400px;
+    height: 200px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 22px;
+    /box-shadow: 0px/
+    box-shadow: 10px 10px 20px gold;
+}
+.apartado6{
+    border: 3px solid indianred;
+    width: 400px;
+    height: 200px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 22px;
+}
+h2{
+    text-align: center;
+    color:blue;
+    text-shadow: -10px -9px 2px gray;  
+    font-family:Helvetica;
+}
